@@ -1,0 +1,1042 @@
+fileFormatVersion: 2
+guid: 902de5853c1fa11419452d06acb47202
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5168512782841332414
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_0
+  - first:
+      213: 2405147019972413266
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_1
+  - first:
+      213: -8897716516063722969
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_2
+  - first:
+      213: -8098913914119599875
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_3
+  - first:
+      213: -5047401767642345231
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_4
+  - first:
+      213: 1621700381451592254
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_5
+  - first:
+      213: -6899725067722643193
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_6
+  - first:
+      213: -8231388119860700539
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_7
+  - first:
+      213: -3727761781375546645
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_8
+  - first:
+      213: -3180385164334014449
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_9
+  - first:
+      213: 3757301785946481064
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_10
+  - first:
+      213: -7494268438177787563
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_11
+  - first:
+      213: -7573293996033113397
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_12
+  - first:
+      213: 5048073813580076009
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_13
+  - first:
+      213: -5856007241876939180
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_14
+  - first:
+      213: 7774444046606352488
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_15
+  - first:
+      213: -1974803249554122805
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_16
+  - first:
+      213: 1134058244403297246
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_17
+  - first:
+      213: 1761662466640030892
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_18
+  - first:
+      213: -7008907246627595181
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_19
+  - first:
+      213: -6009883827557681071
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_20
+  - first:
+      213: 3697309615753506680
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_21
+  - first:
+      213: 380575485380731375
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_22
+  - first:
+      213: 3173972148119353655
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_23
+  - first:
+      213: 2122324480582489226
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_24
+  - first:
+      213: -2685664044965894573
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_25
+  - first:
+      213: 122998745396165165
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_26
+  - first:
+      213: -9041177759302464169
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_27
+  - first:
+      213: 6940153528924947064
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_28
+  - first:
+      213: 1933237912299917223
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_29
+  - first:
+      213: 4841616287928195327
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_30
+  - first:
+      213: -7190393379975376258
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_31
+  - first:
+      213: 967999606992620982
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_32
+  - first:
+      213: -2119099321603958204
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_33
+  - first:
+      213: 1970171434716031656
+    second: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 541
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d3da90201c548b0800000000000000
+      internalID: -5168512782841332414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 541
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2578b0eb87cc06120800000000000000
+      internalID: 2405147019972413266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 636
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72245e388f5f48480800000000000000
+      internalID: -8897716516063722969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 541
+        width: 99
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8ce6a74b0ea9f80800000000000000
+      internalID: -8098913914119599875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 629
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0dff8a5d604f9b0800000000000000
+      internalID: -5047401767642345231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 541
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32a980a7ef618610800000000000000
+      internalID: 1621700381451592254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 541
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709a8827b904f30a0800000000000000
+      internalID: -6899725067722643193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 385
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a1553ed1c34cd80800000000000000
+      internalID: -8231388119860700539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 385
+        width: 100
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea45dd0964544cc0800000000000000
+      internalID: -3727761781375546645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 474
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00e2fe1b800dd3d0800000000000000
+      internalID: -3180385164334014449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 229
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1e749311e942430800000000000000
+      internalID: 3757301785946481064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 228
+        width: 109
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551ddf2df820ff790800000000000000
+      internalID: -7494268438177787563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 228
+        width: 109
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc209d25c3146e690800000000000000
+      internalID: -7573293996033113397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 318
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3546a336c5e0640800000000000000
+      internalID: 5048073813580076009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 314
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e5fc1a0784bbea0800000000000000
+      internalID: -5856007241876939180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 313
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8604f1c6baf54eb60800000000000000
+      internalID: 7774444046606352488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 289
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc71a0158e61894e0800000000000000
+      internalID: -1974803249554122805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 228
+        width: 108
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbf24cf6fbfcbf00800000000000000
+      internalID: 1134058244403297246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 269
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caca7320eaea27810800000000000000
+      internalID: 1761662466640030892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 271
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cd9157efb5bbe90800000000000000
+      internalID: -7008907246627595181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 266
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1583f05208a989ca0800000000000000
+      internalID: -6009883827557681071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 250
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87faf9f918b7f4330800000000000000
+      internalID: 3697309615753506680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 263
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe127583363184500800000000000000
+      internalID: 380575485380731375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 247
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73933af2ad63c0c20800000000000000
+      internalID: 3173972148119353655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 241
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a841c3bded2047d10800000000000000
+      internalID: 2122324480582489226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 242
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356e4c5c7ca9abad0800000000000000
+      internalID: -2685664044965894573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 249
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a382f05baf4b100800000000000000
+      internalID: 122998745396165165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 228
+        width: 108
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d4d99eab8478280800000000000000
+      internalID: -9041177759302464169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 72
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872ce323dd0605060800000000000000
+      internalID: 6940153528924947064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 74
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af44f473ad34da10800000000000000
+      internalID: 1933237912299917223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 169
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff894b4ac50e03340800000000000000
+      internalID: 4841616287928195327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 74
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e725f373157963c90800000000000000
+      internalID: -7190393379975376258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 162
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd438d83860f6d00800000000000000
+      internalID: 967999606992620982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 74
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a560cf4627792e0800000000000000
+      internalID: -2119099321603958204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet1_Idle_Hurt_Death_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 74
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aaeed04b74775b10800000000000000
+      internalID: 1970171434716031656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_0: -5168512782841332414
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_1: 2405147019972413266
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_10: 3757301785946481064
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_11: -7494268438177787563
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_12: -7573293996033113397
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_13: 5048073813580076009
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_14: -5856007241876939180
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_15: 7774444046606352488
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_16: -1974803249554122805
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_17: 1134058244403297246
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_18: 1761662466640030892
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_19: -7008907246627595181
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_2: -8897716516063722969
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_20: -6009883827557681071
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_21: 3697309615753506680
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_22: 380575485380731375
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_23: 3173972148119353655
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_24: 2122324480582489226
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_25: -2685664044965894573
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_26: 122998745396165165
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_27: -9041177759302464169
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_28: 6940153528924947064
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_29: 1933237912299917223
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_3: -8098913914119599875
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_30: 4841616287928195327
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_31: -7190393379975376258
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_32: 967999606992620982
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_33: -2119099321603958204
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_34: 1970171434716031656
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_4: -5047401767642345231
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_5: 1621700381451592254
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_6: -6899725067722643193
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_7: -8231388119860700539
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_8: -3727761781375546645
+      BlueKnight_Sheet1_Idle_Hurt_Death_Walk_9: -3180385164334014449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: 02cf2fe4b2b54ee41bcdbc03e0cc218f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -219370958714095294
+    second: Phase2_05_Ranged_Storm_5frames_0
+  - first:
+      213: -667045782111490698
+    second: Phase2_05_Ranged_Storm_5frames_1
+  - first:
+      213: 492982197360096728
+    second: Phase2_05_Ranged_Storm_5frames_2
+  - first:
+      213: 416208127957683414
+    second: Phase2_05_Ranged_Storm_5frames_3
+  - first:
+      213: 2601172498859792984
+    second: Phase2_05_Ranged_Storm_5frames_4
+  - first:
+      213: 8608686796784607817
+    second: Phase2_05_Ranged_Storm_5frames_5
+  - first:
+      213: -6557892025111335038
+    second: Phase2_05_Ranged_Storm_5frames_6
+  - first:
+      213: 5466082121572424333
+    second: Phase2_05_Ranged_Storm_5frames_7
+  - first:
+      213: -4068464095410393095
+    second: Phase2_05_Ranged_Storm_5frames_8
+  - first:
+      213: 5905284821214950856
+    second: Phase2_05_Ranged_Storm_5frames_9
+  - first:
+      213: -6790798160413299396
+    second: Phase2_05_Ranged_Storm_5frames_10
+  - first:
+      213: -2464946903016633520
+    second: Phase2_05_Ranged_Storm_5frames_11
+  - first:
+      213: 3529455905531253316
+    second: Phase2_05_Ranged_Storm_5frames_12
+  - first:
+      213: 5193379471429745809
+    second: Phase2_05_Ranged_Storm_5frames_13
+  - first:
+      213: -725719353059082882
+    second: Phase2_05_Ranged_Storm_5frames_14
+  - first:
+      213: -8885673243447996902
+    second: Phase2_05_Ranged_Storm_5frames_15
+  - first:
+      213: 8870983405403980493
+    second: Phase2_05_Ranged_Storm_5frames_16
+  - first:
+      213: -621205516387486054
+    second: Phase2_05_Ranged_Storm_5frames_17
+  - first:
+      213: -9041473231095536269
+    second: Phase2_05_Ranged_Storm_5frames_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 4
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2493fcb7643a4fcf0800000000000000
+      internalID: -219370958714095294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 4
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d6254356d2eb6f0800000000000000
+      internalID: -667045782111490698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 4
+        width: 87
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d57d3252bc67d600800000000000000
+      internalID: 492982197360096728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 45
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc4c83561ba6c500800000000000000
+      internalID: 416208127957683414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 43
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a9d0a2b98391420800000000000000
+      internalID: 2601172498859792984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_5
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 39
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94221f8e703387770800000000000000
+      internalID: 8608686796784607817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 4
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f2fd7c2ffadf4a0800000000000000
+      internalID: -6557892025111335038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_7
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 41
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a1071aabc6bdb40800000000000000
+      internalID: 5466082121572424333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_8
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffe1abf579e987c0800000000000000
+      internalID: -4068464095410393095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_9
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 4
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5f502e149c3f150800000000000000
+      internalID: 5905284821214950856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_10
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d60336d0d32c1a0800000000000000
+      internalID: -6790798160413299396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 11
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b8e7ff9dfbacdd0800000000000000
+      internalID: -2464946903016633520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_12
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 27
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442589b32752bf030800000000000000
+      internalID: 3529455905531253316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_13
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 26
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c30621d17921840800000000000000
+      internalID: 5193379471429745809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_14
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 18
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d794ae71abde5f0800000000000000
+      internalID: -725719353059082882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 26
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ec61e634fbfa480800000000000000
+      internalID: -8885673243447996902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_16
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 19
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc24d7f18601c1b70800000000000000
+      internalID: 8870983405403980493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96f537cfd80167f0800000000000000
+      internalID: -621205516387486054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phase2_05_Ranged_Storm_5frames_18
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 14
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375e856000c368280800000000000000
+      internalID: -9041473231095536269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Phase2_05_Ranged_Storm_5frames_0: -219370958714095294
+      Phase2_05_Ranged_Storm_5frames_1: -667045782111490698
+      Phase2_05_Ranged_Storm_5frames_10: -6790798160413299396
+      Phase2_05_Ranged_Storm_5frames_11: -2464946903016633520
+      Phase2_05_Ranged_Storm_5frames_12: 3529455905531253316
+      Phase2_05_Ranged_Storm_5frames_13: 5193379471429745809
+      Phase2_05_Ranged_Storm_5frames_14: -725719353059082882
+      Phase2_05_Ranged_Storm_5frames_15: -8885673243447996902
+      Phase2_05_Ranged_Storm_5frames_16: 8870983405403980493
+      Phase2_05_Ranged_Storm_5frames_17: -621205516387486054
+      Phase2_05_Ranged_Storm_5frames_18: -9041473231095536269
+      Phase2_05_Ranged_Storm_5frames_2: 492982197360096728
+      Phase2_05_Ranged_Storm_5frames_3: 416208127957683414
+      Phase2_05_Ranged_Storm_5frames_4: 2601172498859792984
+      Phase2_05_Ranged_Storm_5frames_5: 8608686796784607817
+      Phase2_05_Ranged_Storm_5frames_6: -6557892025111335038
+      Phase2_05_Ranged_Storm_5frames_7: 5466082121572424333
+      Phase2_05_Ranged_Storm_5frames_8: -4068464095410393095
+      Phase2_05_Ranged_Storm_5frames_9: 5905284821214950856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

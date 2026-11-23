@@ -1,0 +1,2212 @@
+fileFormatVersion: 2
+guid: 69f845b358069ca49bcd8ce370686e3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6641966082323508841
+    second: BlueKnight_Phase2_Soulfire_FullSheet_0
+  - first:
+      213: 5286701579864285617
+    second: BlueKnight_Phase2_Soulfire_FullSheet_1
+  - first:
+      213: -4843567051362857931
+    second: BlueKnight_Phase2_Soulfire_FullSheet_2
+  - first:
+      213: -2971479170132237282
+    second: BlueKnight_Phase2_Soulfire_FullSheet_3
+  - first:
+      213: 8791266195461804756
+    second: BlueKnight_Phase2_Soulfire_FullSheet_4
+  - first:
+      213: -5027722090108940921
+    second: BlueKnight_Phase2_Soulfire_FullSheet_5
+  - first:
+      213: 6754378390620946424
+    second: BlueKnight_Phase2_Soulfire_FullSheet_6
+  - first:
+      213: 1647143338715108170
+    second: BlueKnight_Phase2_Soulfire_FullSheet_7
+  - first:
+      213: 2539701330694059419
+    second: BlueKnight_Phase2_Soulfire_FullSheet_8
+  - first:
+      213: 6873730326767181566
+    second: BlueKnight_Phase2_Soulfire_FullSheet_9
+  - first:
+      213: -2069250194773153688
+    second: BlueKnight_Phase2_Soulfire_FullSheet_10
+  - first:
+      213: 1682437497970212913
+    second: BlueKnight_Phase2_Soulfire_FullSheet_11
+  - first:
+      213: 1313957628139876091
+    second: BlueKnight_Phase2_Soulfire_FullSheet_12
+  - first:
+      213: -128415780997789545
+    second: BlueKnight_Phase2_Soulfire_FullSheet_13
+  - first:
+      213: -6446432863033253196
+    second: BlueKnight_Phase2_Soulfire_FullSheet_14
+  - first:
+      213: -5209881684639160480
+    second: BlueKnight_Phase2_Soulfire_FullSheet_15
+  - first:
+      213: 511229236010032053
+    second: BlueKnight_Phase2_Soulfire_FullSheet_16
+  - first:
+      213: -8415496024546179504
+    second: BlueKnight_Phase2_Soulfire_FullSheet_17
+  - first:
+      213: -5716817156900756583
+    second: BlueKnight_Phase2_Soulfire_FullSheet_18
+  - first:
+      213: -4793501570200168024
+    second: BlueKnight_Phase2_Soulfire_FullSheet_19
+  - first:
+      213: -5881608250950612568
+    second: BlueKnight_Phase2_Soulfire_FullSheet_20
+  - first:
+      213: 8387979241621566791
+    second: BlueKnight_Phase2_Soulfire_FullSheet_21
+  - first:
+      213: 3660521098728004232
+    second: BlueKnight_Phase2_Soulfire_FullSheet_22
+  - first:
+      213: -8983428887015714126
+    second: BlueKnight_Phase2_Soulfire_FullSheet_23
+  - first:
+      213: 3596544476433165184
+    second: BlueKnight_Phase2_Soulfire_FullSheet_24
+  - first:
+      213: 7072239920131528592
+    second: BlueKnight_Phase2_Soulfire_FullSheet_25
+  - first:
+      213: -1677509848997472860
+    second: BlueKnight_Phase2_Soulfire_FullSheet_26
+  - first:
+      213: -7001730447909644588
+    second: BlueKnight_Phase2_Soulfire_FullSheet_27
+  - first:
+      213: 852345453417596336
+    second: BlueKnight_Phase2_Soulfire_FullSheet_28
+  - first:
+      213: 1909757390592786307
+    second: BlueKnight_Phase2_Soulfire_FullSheet_29
+  - first:
+      213: 8587887300497322088
+    second: BlueKnight_Phase2_Soulfire_FullSheet_30
+  - first:
+      213: -7328143764830389088
+    second: BlueKnight_Phase2_Soulfire_FullSheet_31
+  - first:
+      213: 3180722956849425376
+    second: BlueKnight_Phase2_Soulfire_FullSheet_32
+  - first:
+      213: -8575471126744441841
+    second: BlueKnight_Phase2_Soulfire_FullSheet_33
+  - first:
+      213: 1009235358235918666
+    second: BlueKnight_Phase2_Soulfire_FullSheet_34
+  - first:
+      213: 8139243719895127011
+    second: BlueKnight_Phase2_Soulfire_FullSheet_35
+  - first:
+      213: 4337901486472623924
+    second: BlueKnight_Phase2_Soulfire_FullSheet_36
+  - first:
+      213: 3194368216917662822
+    second: BlueKnight_Phase2_Soulfire_FullSheet_37
+  - first:
+      213: 552757812278004109
+    second: BlueKnight_Phase2_Soulfire_FullSheet_38
+  - first:
+      213: 7694907097192226079
+    second: BlueKnight_Phase2_Soulfire_FullSheet_39
+  - first:
+      213: -469246516456497364
+    second: BlueKnight_Phase2_Soulfire_FullSheet_40
+  - first:
+      213: 7207480437915207808
+    second: BlueKnight_Phase2_Soulfire_FullSheet_41
+  - first:
+      213: -4456933190259001904
+    second: BlueKnight_Phase2_Soulfire_FullSheet_42
+  - first:
+      213: 913933269236146627
+    second: BlueKnight_Phase2_Soulfire_FullSheet_43
+  - first:
+      213: -8359508745369999087
+    second: BlueKnight_Phase2_Soulfire_FullSheet_44
+  - first:
+      213: 57498005930822712
+    second: BlueKnight_Phase2_Soulfire_FullSheet_45
+  - first:
+      213: -6038879433603373132
+    second: BlueKnight_Phase2_Soulfire_FullSheet_46
+  - first:
+      213: -4086296704479565531
+    second: BlueKnight_Phase2_Soulfire_FullSheet_47
+  - first:
+      213: -6354094462236633976
+    second: BlueKnight_Phase2_Soulfire_FullSheet_48
+  - first:
+      213: 5819778729187524130
+    second: BlueKnight_Phase2_Soulfire_FullSheet_49
+  - first:
+      213: -322385519201164050
+    second: BlueKnight_Phase2_Soulfire_FullSheet_50
+  - first:
+      213: 8148393887866383055
+    second: BlueKnight_Phase2_Soulfire_FullSheet_51
+  - first:
+      213: 8607152029441402541
+    second: BlueKnight_Phase2_Soulfire_FullSheet_52
+  - first:
+      213: 5323328152331962654
+    second: BlueKnight_Phase2_Soulfire_FullSheet_53
+  - first:
+      213: -9170460930330110656
+    second: BlueKnight_Phase2_Soulfire_FullSheet_54
+  - first:
+      213: -129973490167742398
+    second: BlueKnight_Phase2_Soulfire_FullSheet_55
+  - first:
+      213: -4987392083490811324
+    second: BlueKnight_Phase2_Soulfire_FullSheet_56
+  - first:
+      213: -6643530583001505832
+    second: BlueKnight_Phase2_Soulfire_FullSheet_57
+  - first:
+      213: -2401117662255478081
+    second: BlueKnight_Phase2_Soulfire_FullSheet_58
+  - first:
+      213: 4303834372481211993
+    second: BlueKnight_Phase2_Soulfire_FullSheet_59
+  - first:
+      213: -6555552281346396445
+    second: BlueKnight_Phase2_Soulfire_FullSheet_60
+  - first:
+      213: -8340108566776348465
+    second: BlueKnight_Phase2_Soulfire_FullSheet_61
+  - first:
+      213: -2762311473146543019
+    second: BlueKnight_Phase2_Soulfire_FullSheet_62
+  - first:
+      213: 9094070357543091571
+    second: BlueKnight_Phase2_Soulfire_FullSheet_63
+  - first:
+      213: 6107367633869257567
+    second: BlueKnight_Phase2_Soulfire_FullSheet_64
+  - first:
+      213: -8763715612409690271
+    second: BlueKnight_Phase2_Soulfire_FullSheet_65
+  - first:
+      213: -5782890264529609799
+    second: BlueKnight_Phase2_Soulfire_FullSheet_66
+  - first:
+      213: -221659003377022384
+    second: BlueKnight_Phase2_Soulfire_FullSheet_67
+  - first:
+      213: 2424662601979589512
+    second: BlueKnight_Phase2_Soulfire_FullSheet_68
+  - first:
+      213: -188532071323834602
+    second: BlueKnight_Phase2_Soulfire_FullSheet_69
+  - first:
+      213: -5439666328587175453
+    second: BlueKnight_Phase2_Soulfire_FullSheet_70
+  - first:
+      213: 4070210682951178953
+    second: BlueKnight_Phase2_Soulfire_FullSheet_71
+  - first:
+      213: -2885315370584820452
+    second: BlueKnight_Phase2_Soulfire_FullSheet_72
+  - first:
+      213: 3369709564058804337
+    second: BlueKnight_Phase2_Soulfire_FullSheet_73
+  - first:
+      213: -7533129317002486520
+    second: BlueKnight_Phase2_Soulfire_FullSheet_74
+  - first:
+      213: -3077736660453549277
+    second: BlueKnight_Phase2_Soulfire_FullSheet_75
+  - first:
+      213: -5060946136518814879
+    second: BlueKnight_Phase2_Soulfire_FullSheet_76
+  - first:
+      213: 275954220789699456
+    second: BlueKnight_Phase2_Soulfire_FullSheet_77
+  - first:
+      213: -9032328787133098651
+    second: BlueKnight_Phase2_Soulfire_FullSheet_78
+  - first:
+      213: 5617685604685034107
+    second: BlueKnight_Phase2_Soulfire_FullSheet_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_0
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ee51316f00d2c50800000000000000
+      internalID: 6641966082323508841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 390
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1ae45a3132e5940800000000000000
+      internalID: 5286701579864285617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 389
+        width: 101
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c0bb9dd6138ccb0800000000000000
+      internalID: -4843567051362857931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 390
+        width: 57
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14abc6307f23c6d0800000000000000
+      internalID: -2971479170132237282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_4
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 390
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d29662d60ad00a70800000000000000
+      internalID: 8791266195461804756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_5
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 470
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d0ca5a561f93ab0800000000000000
+      internalID: -5027722090108940921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_6
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 390
+        width: 108
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff398b2c5f5cbd50800000000000000
+      internalID: 6754378390620946424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 390
+        width: 119
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43d34eb324dbd610800000000000000
+      internalID: 1647143338715108170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_8
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 390
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b953b9387e4de3320800000000000000
+      internalID: 2539701330694059419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 390
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe99c84055646f50800000000000000
+      internalID: 6873730326767181566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 390
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868632549eb8843e0800000000000000
+      internalID: -2069250194773153688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 294
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130cf4f8df7395710800000000000000
+      internalID: 1682437497970212913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 295
+        width: 46
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe213b408d1c3210800000000000000
+      internalID: 1313957628139876091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 295
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798821e0786c73ef0800000000000000
+      internalID: -128415780997789545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 294
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2af7a377ba986a0800000000000000
+      internalID: -6446432863033253196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_15
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 294
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067e4410638c2b7b0800000000000000
+      internalID: -5209881684639160480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_16
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 294
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb1c231840481700800000000000000
+      internalID: 511229236010032053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_17
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 294
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0568630f3f6263b80800000000000000
+      internalID: -8415496024546179504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_18
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 295
+        width: 79
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9936215b519c9a0b0800000000000000
+      internalID: -5716817156900756583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_19
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 265
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a911fd08bf0a7db0800000000000000
+      internalID: -4793501570200168024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_20
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 294
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a905163574506ea0800000000000000
+      internalID: -5881608250950612568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 190
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7453438cda6186470800000000000000
+      internalID: 8387979241621566791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 191
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a51868b88ccc230800000000000000
+      internalID: 3660521098728004232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 191
+        width: 92
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b212740603745380800000000000000
+      internalID: -8983428887015714126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_24
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 191
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b21b0652e79e130800000000000000
+      internalID: 3596544476433165184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_25
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 191
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097d6cdacb4a52260800000000000000
+      internalID: 7072239920131528592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_26
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 191
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5594f1ea948b8e0800000000000000
+      internalID: -1677509848997472860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_27
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 191
+        width: 94
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d61f4f114bd4de90800000000000000
+      internalID: -7001730447909644588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_28
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 191
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b500e88ca324db00800000000000000
+      internalID: 852345453417596336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_29
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 191
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fb5797a32d08a10800000000000000
+      internalID: 1909757390592786307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_30
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 191
+        width: 87
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8603b3dcffd4e2770800000000000000
+      internalID: 8587887300497322088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_31
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 232
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac7a4272143d4a90800000000000000
+      internalID: -7328143764830389088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_32
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 230
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eba0f35da2342c20800000000000000
+      internalID: 3180722956849425376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_33
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 226
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c57cce17ecdf880800000000000000
+      internalID: -8575471126744441841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_34
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 191
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a418a6e0636810e00800000000000000
+      internalID: 1009235358235918666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 228
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e39da82a0764f070800000000000000
+      internalID: 8139243719895127011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_36
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 235
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437f6d33b62533c30800000000000000
+      internalID: 4337901486472623924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_37
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 191
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cdc2308fca45c20800000000000000
+      internalID: 3194368216917662822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_38
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 234
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8907a73d4acba700800000000000000
+      internalID: 552757812278004109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_39
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 198
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d56cb4c3dc9ca60800000000000000
+      internalID: 7694907097192226079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_40
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 214
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f558a87c6ec79f0800000000000000
+      internalID: -469246516456497364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_41
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 213
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088438b754d160460800000000000000
+      internalID: 7207480437915207808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_42
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 205
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5b6f690eac522c0800000000000000
+      internalID: -4456933190259001904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_43
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 213
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c16b355771feac00800000000000000
+      internalID: 913933269236146627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 206
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119237f261f0dfb80800000000000000
+      internalID: -8359508745369999087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_45
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 186
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ccccab1264cc000800000000000000
+      internalID: 57498005930822712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_46
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 201
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7a8a68627913ca0800000000000000
+      internalID: -6038879433603373132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_47
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 163
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52965a22cce8a47c0800000000000000
+      internalID: -4086296704479565531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_48
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884db1580c8b1d7a0800000000000000
+      internalID: -6354094462236633976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_49
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 89
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22eb8907be104c050800000000000000
+      internalID: 5819778729187524130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_50
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 89
+        width: 105
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4e84f0418a68bf0800000000000000
+      internalID: -322385519201164050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_51
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 92
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca6d38a119e41170800000000000000
+      internalID: 8148393887866383055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_52
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 92
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da623aa0b2fb27770800000000000000
+      internalID: 8607152029441402541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_53
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 92
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19459610c240e940800000000000000
+      internalID: 5323328152331962654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_54
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 92
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045531dfe5afbb080800000000000000
+      internalID: -9170460930330110656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_55
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 92
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2408550accd323ef0800000000000000
+      internalID: -129973490167742398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_56
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 92
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4425feb035939cab0800000000000000
+      internalID: -4987392083490811324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_57
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df50c932207dc3a0800000000000000
+      internalID: -6643530583001505832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_58
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 92
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba885535348daed0800000000000000
+      internalID: -2401117662255478081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_59
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 130
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95edbdf1f8a4abb30800000000000000
+      internalID: 4303834372481211993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_60
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 116
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eea8d3deeff505a0800000000000000
+      internalID: -6555552281346396445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_61
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 89
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc08a11427bf14c80800000000000000
+      internalID: -8340108566776348465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_62
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5544d1cb95c4aa9d0800000000000000
+      internalID: -2762311473146543019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_63
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 92
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37df3c7cec0a43e70800000000000000
+      internalID: 9094070357543091571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_64
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 90
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bbe79318ab1c450800000000000000
+      internalID: 6107367633869257567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_65
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 131
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16786c92517016680800000000000000
+      internalID: -8763715612409690271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_66
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 123
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbd5a781fb0fbfa0800000000000000
+      internalID: -5782890264529609799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_67
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 119
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a02729f428cecf0800000000000000
+      internalID: -221659003377022384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_68
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 90
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883fa234ac126a120800000000000000
+      internalID: 2424662601979589512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_69
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 115
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61769fb7413326df0800000000000000
+      internalID: -188532071323834602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_70
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e978e37b4c6284b0800000000000000
+      internalID: -5439666328587175453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_71
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 105
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca1e4e1d0b4c7830800000000000000
+      internalID: 4070210682951178953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_72
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 5
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15315f15fc45f7d0800000000000000
+      internalID: -2885315370584820452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_73
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 9
+        width: 58
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17026f9befc93ce20800000000000000
+      internalID: 3369709564058804337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_74
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 5
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d5cf46cc2f47790800000000000000
+      internalID: -7533129317002486520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_75
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 5
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b187950dea945d0800000000000000
+      internalID: -3077736660453549277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_76
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 5
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16319698d48e3c9b0800000000000000
+      internalID: -5060946136518814879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_77
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 4
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0839078d6e264d300800000000000000
+      internalID: 275954220789699456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_78
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 5
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565956cc2d8b6a280800000000000000
+      internalID: -9032328787133098651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Phase2_Soulfire_FullSheet_79
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 55
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72b31f2b4706fd40800000000000000
+      internalID: 5617685604685034107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueKnight_Phase2_Soulfire_FullSheet_0: 6641966082323508841
+      BlueKnight_Phase2_Soulfire_FullSheet_1: 5286701579864285617
+      BlueKnight_Phase2_Soulfire_FullSheet_10: -2069250194773153688
+      BlueKnight_Phase2_Soulfire_FullSheet_11: 1682437497970212913
+      BlueKnight_Phase2_Soulfire_FullSheet_12: 1313957628139876091
+      BlueKnight_Phase2_Soulfire_FullSheet_13: -128415780997789545
+      BlueKnight_Phase2_Soulfire_FullSheet_14: -6446432863033253196
+      BlueKnight_Phase2_Soulfire_FullSheet_15: -5209881684639160480
+      BlueKnight_Phase2_Soulfire_FullSheet_16: 511229236010032053
+      BlueKnight_Phase2_Soulfire_FullSheet_17: -8415496024546179504
+      BlueKnight_Phase2_Soulfire_FullSheet_18: -5716817156900756583
+      BlueKnight_Phase2_Soulfire_FullSheet_19: -4793501570200168024
+      BlueKnight_Phase2_Soulfire_FullSheet_2: -4843567051362857931
+      BlueKnight_Phase2_Soulfire_FullSheet_20: -5881608250950612568
+      BlueKnight_Phase2_Soulfire_FullSheet_21: 8387979241621566791
+      BlueKnight_Phase2_Soulfire_FullSheet_22: 3660521098728004232
+      BlueKnight_Phase2_Soulfire_FullSheet_23: -8983428887015714126
+      BlueKnight_Phase2_Soulfire_FullSheet_24: 3596544476433165184
+      BlueKnight_Phase2_Soulfire_FullSheet_25: 7072239920131528592
+      BlueKnight_Phase2_Soulfire_FullSheet_26: -1677509848997472860
+      BlueKnight_Phase2_Soulfire_FullSheet_27: -7001730447909644588
+      BlueKnight_Phase2_Soulfire_FullSheet_28: 852345453417596336
+      BlueKnight_Phase2_Soulfire_FullSheet_29: 1909757390592786307
+      BlueKnight_Phase2_Soulfire_FullSheet_3: -2971479170132237282
+      BlueKnight_Phase2_Soulfire_FullSheet_30: 8587887300497322088
+      BlueKnight_Phase2_Soulfire_FullSheet_31: -7328143764830389088
+      BlueKnight_Phase2_Soulfire_FullSheet_32: 3180722956849425376
+      BlueKnight_Phase2_Soulfire_FullSheet_33: -8575471126744441841
+      BlueKnight_Phase2_Soulfire_FullSheet_34: 1009235358235918666
+      BlueKnight_Phase2_Soulfire_FullSheet_35: 8139243719895127011
+      BlueKnight_Phase2_Soulfire_FullSheet_36: 4337901486472623924
+      BlueKnight_Phase2_Soulfire_FullSheet_37: 3194368216917662822
+      BlueKnight_Phase2_Soulfire_FullSheet_38: 552757812278004109
+      BlueKnight_Phase2_Soulfire_FullSheet_39: 7694907097192226079
+      BlueKnight_Phase2_Soulfire_FullSheet_4: 8791266195461804756
+      BlueKnight_Phase2_Soulfire_FullSheet_40: -469246516456497364
+      BlueKnight_Phase2_Soulfire_FullSheet_41: 7207480437915207808
+      BlueKnight_Phase2_Soulfire_FullSheet_42: -4456933190259001904
+      BlueKnight_Phase2_Soulfire_FullSheet_43: 913933269236146627
+      BlueKnight_Phase2_Soulfire_FullSheet_44: -8359508745369999087
+      BlueKnight_Phase2_Soulfire_FullSheet_45: 57498005930822712
+      BlueKnight_Phase2_Soulfire_FullSheet_46: -6038879433603373132
+      BlueKnight_Phase2_Soulfire_FullSheet_47: -4086296704479565531
+      BlueKnight_Phase2_Soulfire_FullSheet_48: -6354094462236633976
+      BlueKnight_Phase2_Soulfire_FullSheet_49: 5819778729187524130
+      BlueKnight_Phase2_Soulfire_FullSheet_5: -5027722090108940921
+      BlueKnight_Phase2_Soulfire_FullSheet_50: -322385519201164050
+      BlueKnight_Phase2_Soulfire_FullSheet_51: 8148393887866383055
+      BlueKnight_Phase2_Soulfire_FullSheet_52: 8607152029441402541
+      BlueKnight_Phase2_Soulfire_FullSheet_53: 5323328152331962654
+      BlueKnight_Phase2_Soulfire_FullSheet_54: -9170460930330110656
+      BlueKnight_Phase2_Soulfire_FullSheet_55: -129973490167742398
+      BlueKnight_Phase2_Soulfire_FullSheet_56: -4987392083490811324
+      BlueKnight_Phase2_Soulfire_FullSheet_57: -6643530583001505832
+      BlueKnight_Phase2_Soulfire_FullSheet_58: -2401117662255478081
+      BlueKnight_Phase2_Soulfire_FullSheet_59: 4303834372481211993
+      BlueKnight_Phase2_Soulfire_FullSheet_6: 6754378390620946424
+      BlueKnight_Phase2_Soulfire_FullSheet_60: -6555552281346396445
+      BlueKnight_Phase2_Soulfire_FullSheet_61: -8340108566776348465
+      BlueKnight_Phase2_Soulfire_FullSheet_62: -2762311473146543019
+      BlueKnight_Phase2_Soulfire_FullSheet_63: 9094070357543091571
+      BlueKnight_Phase2_Soulfire_FullSheet_64: 6107367633869257567
+      BlueKnight_Phase2_Soulfire_FullSheet_65: -8763715612409690271
+      BlueKnight_Phase2_Soulfire_FullSheet_66: -5782890264529609799
+      BlueKnight_Phase2_Soulfire_FullSheet_67: -221659003377022384
+      BlueKnight_Phase2_Soulfire_FullSheet_68: 2424662601979589512
+      BlueKnight_Phase2_Soulfire_FullSheet_69: -188532071323834602
+      BlueKnight_Phase2_Soulfire_FullSheet_7: 1647143338715108170
+      BlueKnight_Phase2_Soulfire_FullSheet_70: -5439666328587175453
+      BlueKnight_Phase2_Soulfire_FullSheet_71: 4070210682951178953
+      BlueKnight_Phase2_Soulfire_FullSheet_72: -2885315370584820452
+      BlueKnight_Phase2_Soulfire_FullSheet_73: 3369709564058804337
+      BlueKnight_Phase2_Soulfire_FullSheet_74: -7533129317002486520
+      BlueKnight_Phase2_Soulfire_FullSheet_75: -3077736660453549277
+      BlueKnight_Phase2_Soulfire_FullSheet_76: -5060946136518814879
+      BlueKnight_Phase2_Soulfire_FullSheet_77: 275954220789699456
+      BlueKnight_Phase2_Soulfire_FullSheet_78: -9032328787133098651
+      BlueKnight_Phase2_Soulfire_FullSheet_79: 5617685604685034107
+      BlueKnight_Phase2_Soulfire_FullSheet_8: 2539701330694059419
+      BlueKnight_Phase2_Soulfire_FullSheet_9: 6873730326767181566
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
