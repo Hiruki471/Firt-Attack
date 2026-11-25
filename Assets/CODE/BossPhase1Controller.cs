@@ -189,7 +189,7 @@ public class BossPhase1Controller : MonoBehaviour
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         if(anim != null)
-       {
+        { 
             anim.ResetTrigger("SpecialTrigger");
             anim.SetTrigger("SpecialTrigger");
         }
