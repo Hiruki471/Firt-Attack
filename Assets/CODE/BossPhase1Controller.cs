@@ -117,9 +117,11 @@ public class BossPhase1Controller : MonoBehaviour
         isAttacking = true;
         if (anim != null)
         {
+            anim.SetInteger("AttackIndex", Random.Range(1, 5)); // 1-4 ตามจำนวนท่า
             anim.ResetTrigger("AttackTrigger");
             anim.SetTrigger("AttackTrigger");
         }
+        
 
         yield return new WaitForSeconds(attackWindup);
 
@@ -262,4 +264,5 @@ public class BossPhase1Controller : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, skillRadius);
     }
     
+
 }
