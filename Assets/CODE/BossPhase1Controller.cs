@@ -188,11 +188,10 @@ public class BossPhase1Controller : MonoBehaviour
         isAttacking = true;
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
-        if (anim != null)
-        {
-            anim.SetInteger("AttackIndex", 1);
-            anim.ResetTrigger("AttackTrigger");
-            anim.SetTrigger("AttackTrigger");
+        if(anim != null)
+       {
+            anim.ResetTrigger("SpecialTrigger");
+            anim.SetTrigger("SpecialTrigger");
         }
 
         yield return new WaitForSeconds(skillWindup);
