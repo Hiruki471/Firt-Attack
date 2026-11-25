@@ -146,8 +146,8 @@ Transform:
   m_GameObject: {fileID: 147874992}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.41, y: -0.02, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.3479, y: -0.02, z: 0}
+  m_LocalScale: {x: 1.0388, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1873290712}
@@ -592,34 +592,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb8ba105cbff0ef4a84de02e20576ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossPhase1Controller
-  player: {fileID: 2115618849}
   maxHealth: 1000
-  currentHealth: 0
-  walkSpeed: 1.5
-  runSpeed: 3.5
-  chaseRange: 12
-  attackRange: 2.2
-  attackCooldown: 1.5
-  specialCooldown: 7
-  specialUseChance: 0.35
-  runDurationAfterSpecial: 0
-  specialCastDuration: 0.85
-  specialHitDelay: 0.35
-  specialDamageRadius: 3.2
-  specialDamage: 28
+  phase2Threshold: 0.5
+  p1MoveSpeed: 2
+  p1Damage: 10
+  p1AttackCooldown: 2
+  p2MoveSpeed: 4
+  p2Damage: 20
+  p2AttackCooldown: 1
+  phase2Color: {r: 1, g: 0.4, b: 0.4, a: 1}
   attackPoint: {fileID: 1565713803}
-  normalAttackRadius: 1.3
+  attackRadius: 1
+  attackTriggerDistance: 1.8
+  attackWindup: 0.4
+  attackRecovery: 0.4
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  normalAttackDamage: 15
-  autoHitDelay: 0.25
-  useAutoHitInCode: 1
-  phase2SpawnDelay: 0.6
-  phase2SpawnOffset: {x: 0, y: 0, z: 0}
-  phase2BossPrefab: {fileID: 0}
-  existingPhase2BossObject: {fileID: 0}
-  phase2ScriptToEnable: {fileID: 0}
+  skillRadius: 4
+  skillDamage: 30
+  skillWindup: 0.8
+  skillRecovery: 0.6
+  repeatSkill: 1
+  skillInterval: 8
+  skillEffectPrefab: {fileID: 0}
+  player: {fileID: 2115618849}
+  endGameDelay: 2.5
+  victoryPanel: {fileID: 0}
+  victorySceneName: MainMenu
 --- !u!1 &521217910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,8 +1434,8 @@ Transform:
   m_GameObject: {fileID: 1192532881}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.62, y: -0.03, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 9.5245, y: -0.03, z: 0}
+  m_LocalScale: {x: 1.0597, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1873290712}
@@ -1487,7 +1487,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6093369146857124517, guid: 95e32e66931d26b4fb09876d7fc13b8f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
