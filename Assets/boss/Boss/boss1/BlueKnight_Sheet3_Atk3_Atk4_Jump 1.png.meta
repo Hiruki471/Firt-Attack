@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: e7ad40a3e6970684e85e9e8e4c4d44e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3363702047653425547
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_0
+  - first:
+      213: -734247531080266169
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_1
+  - first:
+      213: -2439623211374439541
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_2
+  - first:
+      213: 4057407001571562650
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_3
+  - first:
+      213: 2692660349475971791
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_4
+  - first:
+      213: -3720041774771396542
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_5
+  - first:
+      213: -6047459888633675988
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_6
+  - first:
+      213: -3893148276449576941
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_7
+  - first:
+      213: 757793065855907281
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_8
+  - first:
+      213: -5485951384879058911
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_9
+  - first:
+      213: -3282658792739832242
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_10
+  - first:
+      213: 8162003009673627259
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_11
+  - first:
+      213: 1467797064178636502
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_12
+  - first:
+      213: 4191461720851259264
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_13
+  - first:
+      213: -4713315256775043545
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_14
+  - first:
+      213: 3111359782098968856
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_15
+  - first:
+      213: -8025882751162985335
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_16
+  - first:
+      213: -893739499287862157
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_17
+  - first:
+      213: 7331427564433088546
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_18
+  - first:
+      213: -6363232907791352871
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_19
+  - first:
+      213: 1489730176155995048
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_20
+  - first:
+      213: 4681234038216703022
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_21
+  - first:
+      213: 1446491585292202857
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_22
+  - first:
+      213: -4327480177073548562
+    second: BlueKnight_Sheet3_Atk3_Atk4_Jump_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 345
+        width: 97
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e0d5f2fcab151d0800000000000000
+      internalID: -3363702047653425547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ec0ccb2cd6fc5f0800000000000000
+      internalID: -734247531080266169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 437
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b839a3c6d97b42ed0800000000000000
+      internalID: -2439623211374439541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 345
+        width: 43
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a941bddbb2ece4830800000000000000
+      internalID: 4057407001571562650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 345
+        width: 43
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc26b4f42504e5520800000000000000
+      internalID: 2692660349475971791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 345
+        width: 133
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240232927b1cf5cc0800000000000000
+      internalID: -3720041774771396542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 345
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ff098a54b131ca0800000000000000
+      internalID: -6047459888633675988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 389
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3187c44f442c8f9c0800000000000000
+      internalID: -3893148276449576941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 293
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5789747c8348a00800000000000000
+      internalID: 757793065855907281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 190
+        width: 118
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b831084cfdd3b0800000000000000
+      internalID: -5485951384879058911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 190
+        width: 45
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4efde36837a172d0800000000000000
+      internalID: -3282658792739832242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 190
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76044f3e72454170800000000000000
+      internalID: 8162003009673627259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 190
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d69ab437a9ae5410800000000000000
+      internalID: 1467797064178636502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 284
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f9cf05a301b2a30800000000000000
+      internalID: 4191461720851259264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 282
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7269e750fb0f69eb0800000000000000
+      internalID: -4713315256775043545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 190
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8112274bc35cd2b20800000000000000
+      internalID: 3111359782098968856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 32
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984def729265e9090800000000000000
+      internalID: -8025882751162985335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 119
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374263f19acc893f0800000000000000
+      internalID: -893739499287862157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220aa8ab6867eb560800000000000000
+      internalID: 7331427564433088546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 32
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db350c526141b7a0800000000000000
+      internalID: -6363232907791352871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 111
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab45f8c3b59ca410800000000000000
+      internalID: 1489730176155995048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 33
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cbf563e8517f040800000000000000
+      internalID: 4681234038216703022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 44
+        width: 45
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963fee7de68f21410800000000000000
+      internalID: 1446491585292202857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet3_Atk3_Atk4_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 32
+        width: 114
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee29cf8f4b3b1f3c0800000000000000
+      internalID: -4327480177073548562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_0: -3363702047653425547
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_1: -734247531080266169
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_10: -3282658792739832242
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_11: 8162003009673627259
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_12: 1467797064178636502
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_13: 4191461720851259264
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_14: -4713315256775043545
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_15: 3111359782098968856
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_16: -8025882751162985335
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_17: -893739499287862157
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_18: 7331427564433088546
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_19: -6363232907791352871
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_2: -2439623211374439541
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_20: 1489730176155995048
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_21: 4681234038216703022
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_22: 1446491585292202857
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_23: -4327480177073548562
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_3: 4057407001571562650
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_4: 2692660349475971791
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_5: -3720041774771396542
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_6: -6047459888633675988
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_7: -3893148276449576941
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_8: 757793065855907281
+      BlueKnight_Sheet3_Atk3_Atk4_Jump_9: -5485951384879058911
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
