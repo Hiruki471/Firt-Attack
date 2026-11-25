@@ -1,5 +1,7 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class SamuraiController : MonoBehaviour
 {
@@ -9,6 +11,13 @@ public class SamuraiController : MonoBehaviour
     public float jumpForce = 11f;
     public int maxHealth = 100;
     public int currentHealth;
+
+    [Header("หลอดเลือดผู้เล่น (UI)")]
+    public Slider healthSlider;
+    public Image healthFillImage;
+    public TMP_Text healthText;
+    public bool smoothHealthBar = true;
+    public float healthLerpSpeed = 12f;
 
     [Header("เช็คพื้น (Ground Check)")]
     public Transform groundCheck;
@@ -43,13 +52,24 @@ public class SamuraiController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        if (maxHealth <= 0) maxHealth = 100;
         currentHealth = maxHealth;
         baseScaleX = Mathf.Abs(transform.localScale.x);
+
+        SyncHealthUI(instant: true);
     }
 
     void Update()
     {
-        if (isDead) return;
+        UpdateHealthUI();
+
+        if (isDead)
+        {
+            if (anim != null && !anim.GetBool("IsDead"))
+                anim.SetBool("IsDead", true);
+            return;
+        }
 
         // 1. เช็คว่ายืนบนพื้นไหม
         if (groundCheck != null)
@@ -136,6 +156,55 @@ public class SamuraiController : MonoBehaviour
         rb.linearVelocity = new Vector2(moveInput * currentSpeed, rb.linearVelocity.y);
     }
 
+    void SyncHealthUI(bool instant)
+    {
+        int safeMax = Mathf.Max(1, maxHealth);
+        float ratio = Mathf.Clamp01((float)currentHealth / safeMax);
+
+        if (healthSlider != null)
+        {
+            healthSlider.minValue = 0f;
+            healthSlider.maxValue = safeMax;
+            if (instant) healthSlider.value = currentHealth;
+        }
+
+        if (healthFillImage != null && instant)
+        {
+            healthFillImage.fillAmount = ratio;
+        }
+
+        if (healthText != null)
+        {
+            healthText.text = $"{currentHealth} / {maxHealth}";
+        }
+    }
+
+    void UpdateHealthUI()
+    {
+        int safeMax = Mathf.Max(1, maxHealth);
+        float targetFill = Mathf.Clamp01((float)currentHealth / safeMax);
+
+        if (healthSlider != null)
+        {
+            healthSlider.maxValue = safeMax;
+            healthSlider.value = smoothHealthBar
+                ? Mathf.Lerp(healthSlider.value, currentHealth, Time.deltaTime * healthLerpSpeed)
+                : currentHealth;
+        }
+
+        if (healthFillImage != null)
+        {
+            healthFillImage.fillAmount = smoothHealthBar
+                ? Mathf.Lerp(healthFillImage.fillAmount, targetFill, Time.deltaTime * healthLerpSpeed)
+                : targetFill;
+        }
+
+        if (healthText != null)
+        {
+            healthText.text = $"{currentHealth} / {maxHealth}";
+        }
+    }
+
     void Jump()
     {
         if (rb != null)
@@ -197,13 +266,18 @@ public class SamuraiController : MonoBehaviour
     {
         if (isDead || isBlocking || damage <= 0) return;
 
-        currentHealth -= damage;
+        currentHealth = Mathf.Max(0, currentHealth - damage);
+        SyncHealthUI(instant: false);
+
         if (currentHealth <= 0)
         {
             currentHealth = 0;
             isDead = true;
             if (anim != null)
+            {
+                anim.SetFloat("Speed", 0f);
                 anim.SetBool("IsDead", true);
+            }
             if (rb != null)
                 rb.linearVelocity = Vector2.zero;
         }

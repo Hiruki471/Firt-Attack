@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class BossPhase1Controller : MonoBehaviour
 {
     [Header("เลือด")]
-    public int maxHealth = 300;
+    public int maxHealth = 400;
     [Range(0.1f, 0.9f)] public float phase2Threshold = 0.5f;
 
     [Header("เฟส 1")]
@@ -37,6 +38,11 @@ public class BossPhase1Controller : MonoBehaviour
 
     [Header("อ้างอิง")]
     public Transform player;
+
+    [Header("จบเกมเมื่อบอสตาย")]
+    public float endGameDelay = 2.5f;      // รอให้ท่าตายเล่นจบก่อน
+    public GameObject victoryPanel;        // ลาก Panel "ชนะ" ใส่ (ไม่ใส่ก็ได้)
+    public string victorySceneName = "";   // หรือใส่ชื่อ Scene ที่จะโหลด
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -216,7 +222,24 @@ public class BossPhase1Controller : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         if (anim != null) anim.SetBool("IsDead", true);
         foreach (Collider2D c in GetComponents<Collider2D>()) c.enabled = false;
-        Destroy(gameObject, 3f);
+
+        StartCoroutine(EndGameRoutine());
+    }
+
+    IEnumerator EndGameRoutine()
+    {
+        yield return new WaitForSeconds(endGameDelay);
+
+        if (victoryPanel != null)
+        {
+            victoryPanel.SetActive(true);
+            Time.timeScale = 0f;               // หยุดเกม
+        }
+        else if (!string.IsNullOrEmpty(victorySceneName))
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(victorySceneName);
+        }
     }
 
     void SetSpeedAnim(float v)
@@ -238,4 +261,5 @@ public class BossPhase1Controller : MonoBehaviour
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, skillRadius);
     }
+    
 }
