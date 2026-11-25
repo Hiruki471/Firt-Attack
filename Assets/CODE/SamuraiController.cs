@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class SamuraiController : MonoBehaviour
@@ -7,15 +8,23 @@ public class SamuraiController : MonoBehaviour
     public float runSpeed = 6.5f;
     public float jumpForce = 11f;
     public int maxHealth = 100;
+    public int currentHealth;
 
     [Header("เช็คพื้น (Ground Check)")]
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
 
+    [Header("การทำดาเมจใส่ศัตรู / บอส")]
+    public Transform attackPoint;
+    public float attackRange = 1.4f;
+    public LayerMask enemyLayer;
+    public int attackDamage = 25;
+    public float hitDelay = 0.15f;
+    public bool useAutoHitInCode = true;
+
     private Rigidbody2D rb;
     private Animator anim;
-    private int currentHealth;
     private bool isGrounded;
     private bool canDoubleJump;
     private bool isBlocking;
@@ -23,6 +32,7 @@ public class SamuraiController : MonoBehaviour
     private float moveInput;
     private bool isRunning;
     private float baseScaleX;
+    private bool hasDealtCurrentSwingDamage;
 
     // ระบบคอมโบโจมตี 3 จังหวะ
     private int comboStep = 0;
@@ -142,6 +152,7 @@ public class SamuraiController : MonoBehaviour
     void PerformAttack()
     {
         lastAttackTime = Time.time;
+        hasDealtCurrentSwingDamage = false;
         comboStep++;
         if (comboStep > 3) comboStep = 1;
 
@@ -151,16 +162,45 @@ public class SamuraiController : MonoBehaviour
             anim.ResetTrigger("AttackTrigger");
             anim.SetTrigger("AttackTrigger");
         }
+
+        if (useAutoHitInCode)
+        {
+            StartCoroutine(AutoDealAttackDamageRoutine());
+        }
+    }
+
+    IEnumerator AutoDealAttackDamageRoutine()
+    {
+        if (hitDelay > 0f)
+            yield return new WaitForSeconds(hitDelay);
+
+        DealPlayerAttackDamage();
+    }
+
+    // เรียกได้ทั้งจากโค้ดอัตโนมัติ และจาก Animation Event ตอนดาบผู้เล่นฟันโดน
+    public void DealPlayerAttackDamage()
+    {
+        if (isDead || hasDealtCurrentSwingDamage) return;
+        hasDealtCurrentSwingDamage = true;
+
+        Vector2 center = attackPoint != null ? (Vector2)attackPoint.position : (Vector2)transform.position;
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(center, attackRange, enemyLayer);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.SendMessage("TakeDamage", attackDamage, SendMessageOptions.DontRequireReceiver);
+        }
     }
 
     // เรียกใช้ฟังก์ชันนี้เมื่อบอสหรือศัตรูตีโดนตัวละคร
     public void TakeDamage(int damage)
     {
-        if (isDead || isBlocking) return;
+        if (isDead || isBlocking || damage <= 0) return;
 
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
+            currentHealth = 0;
             isDead = true;
             if (anim != null)
                 anim.SetBool("IsDead", true);
@@ -181,5 +221,9 @@ public class SamuraiController : MonoBehaviour
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
+
+        Vector2 atkCenter = attackPoint != null ? (Vector2)attackPoint.position : (Vector2)transform.position;
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(atkCenter, attackRange);
     }
 }
