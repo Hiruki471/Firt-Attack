@@ -1,334 +1,240 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
 public class BossPhase1Controller : MonoBehaviour
 {
-    [Header("เป้าหมายและพลังชีวิตเฟส 1")]
-    public Transform player;
-    public int maxHealth = 200;
-    public int currentHealth;
+    [Header("เลือด")]
+    public int maxHealth = 300;
+    [Range(0.1f, 0.9f)] public float phase2Threshold = 0.5f;
 
-    [Header("การเคลื่อนที่ (เดินก่อน -> ปลดล็อกวิ่งหลังใช้ Special)")]
-    public float walkSpeed = 2.5f;
-    public float runSpeed = 5.5f;
-    public float chaseRange = 14f;
-    public float attackRange = 2.6f;
-    public float attackCooldown = 1.5f;
+    [Header("เฟส 1")]
+    public float p1MoveSpeed = 2f;
+    public int p1Damage = 10;
+    public float p1AttackCooldown = 2f;
 
-    [Header("ท่าพิเศษ Boss_Special และการปลดล็อกวิ่ง")]
-    public float specialCooldown = 7f;
-    [Range(0f, 1f)]
-    public float specialUseChance = 0.35f;
-    [Tooltip("0 = ปลดล็อกวิ่งถาวรตลอดเฟส 1 หลังใช้ Boss_Special")]
-    public float runDurationAfterSpecial = 0f;
-    public float specialCastDuration = 0.85f;
-    public float specialHitDelay = 0.35f;
-    public float specialDamageRadius = 3.2f;
-    public int specialDamage = 28;
+    [Header("เฟส 2 (โกรธ)")]
+    public float p2MoveSpeed = 4f;
+    public int p2Damage = 20;
+    public float p2AttackCooldown = 1f;
+    public Color phase2Color = new Color(1f, 0.4f, 0.4f);
 
-    [Header("การโจมตีปกติ (Attack 1 - 4)")]
+    [Header("โจมตี")]
     public Transform attackPoint;
-    public float normalAttackRadius = 1.5f;
+    public float attackRadius = 1f;
+    public float attackTriggerDistance = 1.8f;
+    public float attackWindup = 0.4f;
+    public float attackRecovery = 0.4f;
     public LayerMask playerLayer;
-    public int normalAttackDamage = 15;
-    [Tooltip("หน่วงเวลาก่อนดาเมจออกอัตโนมัติในโค้ด (ถ้าใช้ Animation Event อยู่แล้ว ตั้งค่านี้ได้ตามจังหวะฟัน)")]
-    public float autoHitDelay = 0.25f;
-    public bool useAutoHitInCode = true;
 
-    [Header("ตั้งค่าเมื่อบอสเฟส 1 เลือดหมด -> เข้าสู่เฟส 2")]
-    public float phase2SpawnDelay = 0.6f;
-    public Vector3 phase2SpawnOffset = Vector3.zero;
-    public GameObject phase2BossPrefab;
-    public GameObject existingPhase2BossObject;
-    public MonoBehaviour phase2ScriptToEnable;
+    [Header("สกิลเฟส 2")]
+    public float skillRadius = 4f;
+    public int skillDamage = 30;
+    public float skillWindup = 0.8f;
+    public float skillRecovery = 0.6f;
+    public bool repeatSkill = true;
+    public float skillInterval = 8f;
+    public GameObject skillEffectPrefab;
+
+    [Header("อ้างอิง")]
+    public Transform player;
 
     private Rigidbody2D rb;
     private Animator anim;
-    private Collider2D col;
+    private SpriteRenderer sr;
+    private int currentHealth;
+    private int phase = 1;
+    private bool isDead;
+    private bool isTransitioning;
+    private bool isAttacking;
+    private float nextAttackTime;
+    private float nextSkillTime;
     private float baseScaleX;
-    private float lastAttackTime = -999f;
-    private float lastSpecialTime = -999f;
-    private float runUnlockedUntilTime = -999f;
-
-    private bool canRun = false;
-    private bool isUsingSpecial = false;
-    private bool isDefeatedPhase1 = false;
-    private bool hasDealtCurrentSpecialHit = false;
-    private bool hasDealtCurrentNormalHit = false;
+    private Coroutine attackCo;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        col = GetComponent<Collider2D>();
-
-        if (maxHealth <= 0) maxHealth = 200;
+        sr = GetComponentInChildren<SpriteRenderer>();
         currentHealth = maxHealth;
         baseScaleX = Mathf.Abs(transform.localScale.x);
 
-        FindPlayerIfMissing();
-
-        if (existingPhase2BossObject != null)
-            existingPhase2BossObject.SetActive(false);
-
-        if (phase2ScriptToEnable != null)
-            phase2ScriptToEnable.enabled = false;
-    }
-
-    void FindPlayerIfMissing()
-    {
-        if (player != null) return;
-
-        GameObject p = GameObject.Find("Player1");
-        if (p == null) p = GameObject.FindGameObjectWithTag("Player");
-        if (p != null) player = p.transform;
+        if (player == null)
+        {
+            SamuraiController s = FindAnyObjectByType<SamuraiController>();
+            if (s != null) player = s.transform;
+        }
     }
 
     void Update()
     {
-        if (isDefeatedPhase1) return;
+        if (isDead || player == null) return;
 
-        if (player == null)
+        if (isTransitioning || isAttacking)
         {
-            FindPlayerIfMissing();
-            if (player == null) return;
-        }
-
-        if (canRun && runDurationAfterSpecial > 0f && Time.time > runUnlockedUntilTime)
-        {
-            canRun = false;
-        }
-
-        if (isUsingSpecial)
-        {
-            SetMoveSpeed(0f);
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            SetSpeedAnim(0);
             return;
         }
 
-        float distX = player.position.x - transform.position.x;
-        float absDist = Mathf.Abs(distX);
-        float dirX = Mathf.Sign(distX);
+        float dx = player.position.x - transform.position.x;
+        float dist = Mathf.Abs(dx);
 
-        // หันหน้าเข้าหาผู้เล่นโดยคงขนาด Scale เดิม
-        if (absDist > 0.1f)
+        transform.localScale = new Vector3(dx >= 0 ? baseScaleX : -baseScaleX,
+                                           transform.localScale.y, transform.localScale.z);
+
+        // เฟส 2: ใช้สกิลซ้ำตามเวลา
+        if (phase == 2 && repeatSkill && Time.time >= nextSkillTime)
         {
-            transform.localScale = new Vector3(
-                dirX > 0 ? baseScaleX : -baseScaleX,
-                transform.localScale.y,
-                transform.localScale.z
-            );
+            StartCoroutine(SkillRoutine());
+            return;
         }
 
-        if (absDist <= attackRange)
+        if (dist > attackTriggerDistance)
         {
-            SetMoveSpeed(0f);
-            if (Time.time - lastAttackTime >= attackCooldown)
-            {
-                PerformNormalAttack();
-            }
-        }
-        else if (absDist <= chaseRange)
-        {
-            // โอกาสใช้ท่า Boss_Special เพื่อสร้างดาเมจพิเศษและปลดล็อกการวิ่ง
-            if (Time.time - lastSpecialTime >= specialCooldown &&
-                Random.value < specialUseChance * Time.deltaTime * 3f)
-            {
-                StartCoroutine(SpecialMoveRoutine());
-                return;
-            }
-
-            // ตอนปกติเดินได้อย่างเดียว (walkSpeed) จนกว่าจะใช้ Boss_Special ถึงจะวิ่งได้ (runSpeed)
-            float activeSpeed = canRun ? runSpeed : walkSpeed;
-            SetMoveSpeed(dirX * activeSpeed);
+            float speed = (phase == 1) ? p1MoveSpeed : p2MoveSpeed;
+            rb.linearVelocity = new Vector2(Mathf.Sign(dx) * speed, rb.linearVelocity.y);
+            SetSpeedAnim(speed);
         }
         else
         {
-            SetMoveSpeed(0f);
+            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            SetSpeedAnim(0);
+
+            if (Time.time >= nextAttackTime)
+                attackCo = StartCoroutine(AttackRoutine());
         }
     }
 
-    void SetMoveSpeed(float vx)
+    IEnumerator AttackRoutine()
     {
-        if (rb != null)
-            rb.linearVelocity = new Vector2(vx, rb.linearVelocity.y);
-
-        if (anim != null)
-            anim.SetFloat("Speed", Mathf.Abs(vx));
-    }
-
-    IEnumerator SpecialMoveRoutine()
-    {
-        if (isDefeatedPhase1 || isUsingSpecial) yield break;
-
-        isUsingSpecial = true;
-        hasDealtCurrentSpecialHit = false;
-        lastSpecialTime = Time.time;
-        SetMoveSpeed(0f);
-
+        isAttacking = true;
         if (anim != null)
         {
-            anim.ResetTrigger("SpecialTrigger");
-            anim.SetTrigger("SpecialTrigger");
-        }
-
-        if (specialHitDelay > 0f)
-            yield return new WaitForSeconds(specialHitDelay);
-
-        if (!isDefeatedPhase1 && !hasDealtCurrentSpecialHit && useAutoHitInCode)
-        {
-            OnSpecialAttackHitAndUnlockRun();
-        }
-
-        float remainingTime = Mathf.Max(0f, specialCastDuration - specialHitDelay);
-        if (remainingTime > 0f)
-            yield return new WaitForSeconds(remainingTime);
-
-        FinishSpecialMove();
-    }
-
-    // เรียกได้ทั้งจากโค้ดอัตโนมัติ และจาก Animation Event ในคลิป Boss_Special
-    public void OnSpecialAttackHitAndUnlockRun()
-    {
-        if (isDefeatedPhase1 || hasDealtCurrentSpecialHit) return;
-        hasDealtCurrentSpecialHit = true;
-
-        canRun = true;
-        if (runDurationAfterSpecial > 0f)
-        {
-            runUnlockedUntilTime = Time.time + runDurationAfterSpecial;
-        }
-
-        Vector2 center = attackPoint != null ? (Vector2)attackPoint.position : (Vector2)transform.position;
-        Collider2D[] hits = Physics2D.OverlapCircleAll(center, specialDamageRadius, playerLayer);
-        foreach (Collider2D hit in hits)
-        {
-            hit.SendMessage("TakeDamage", specialDamage, SendMessageOptions.DontRequireReceiver);
-        }
-    }
-
-    // เรียกได้ทั้งจากโค้ดอัตโนมัติ และจาก Animation Event เฟรมสุดท้ายของ Boss_Special
-    public void FinishSpecialMove()
-    {
-        isUsingSpecial = false;
-    }
-
-    void PerformNormalAttack()
-    {
-        lastAttackTime = Time.time;
-        hasDealtCurrentNormalHit = false;
-        int attackIdx = Random.Range(1, 5); // สุ่ม Attack 1 - 4
-
-        if (anim != null)
-        {
-            anim.SetInteger("AttackIndex", attackIdx);
             anim.ResetTrigger("AttackTrigger");
             anim.SetTrigger("AttackTrigger");
         }
 
-        if (useAutoHitInCode)
+        yield return new WaitForSeconds(attackWindup);
+
+        if (!isDead && !isTransitioning && attackPoint != null)
         {
-            StartCoroutine(AutoNormalHitRoutine());
+            Collider2D hit = Physics2D.OverlapCircle(attackPoint.position, attackRadius, playerLayer);
+            if (hit != null)
+            {
+                SamuraiController p = hit.GetComponentInParent<SamuraiController>();
+                if (p != null)
+                    p.TakeDamage(phase == 1 ? p1Damage : p2Damage);
+            }
         }
-    }
 
-    IEnumerator AutoNormalHitRoutine()
-    {
-        if (autoHitDelay > 0f)
-            yield return new WaitForSeconds(autoHitDelay);
+        yield return new WaitForSeconds(attackRecovery);
 
-        DealNormalAttackDamage();
-    }
-
-    // เรียกได้ทั้งจากโค้ดอัตโนมัติ และจาก Animation Event ในคลิป Boss_Attack1 - 4
-    public void DealNormalAttackDamage()
-    {
-        if (isDefeatedPhase1 || hasDealtCurrentNormalHit) return;
-        hasDealtCurrentNormalHit = true;
-
-        Vector2 center = attackPoint != null ? (Vector2)attackPoint.position : (Vector2)transform.position;
-        Collider2D[] hits = Physics2D.OverlapCircleAll(center, normalAttackRadius, playerLayer);
-        foreach (Collider2D hit in hits)
-        {
-            hit.SendMessage("TakeDamage", normalAttackDamage, SendMessageOptions.DontRequireReceiver);
-        }
+        nextAttackTime = Time.time + (phase == 1 ? p1AttackCooldown : p2AttackCooldown);
+        isAttacking = false;
     }
 
     public void TakeDamage(int damage)
     {
-        if (isDefeatedPhase1 || damage <= 0) return;
+        if (isDead || isTransitioning) return;
 
         currentHealth -= damage;
+
         if (currentHealth <= 0)
         {
-            currentHealth = 0;
-            StartCoroutine(TransitionToPhase2OnDeath());
+            Die();
+            return;
         }
-        else if (anim != null)
+
+        if (phase == 1 && currentHealth <= maxHealth * phase2Threshold)
         {
-            anim.ResetTrigger("HurtTrigger");
-            anim.SetTrigger("HurtTrigger");
+            StartCoroutine(EnterPhase2());
+            return;
         }
+
+        if (anim != null && !isAttacking)
+            anim.SetTrigger("HurtTrigger");
     }
 
-    IEnumerator TransitionToPhase2OnDeath()
+    IEnumerator EnterPhase2()
     {
-        isDefeatedPhase1 = true;
-        isUsingSpecial = false;
-        StopAllCoroutines();
-        SetMoveSpeed(0f);
+        phase = 2;
+        isTransitioning = true;
 
-        if (rb != null)
-            rb.linearVelocity = Vector2.zero;
+        if (attackCo != null) StopCoroutine(attackCo);
+        isAttacking = false;
 
-        if (col != null)
-            col.enabled = false;
+        rb.linearVelocity = Vector2.zero;
+        if (anim != null) anim.SetTrigger("Phase2Trigger");
+
+        yield return new WaitForSeconds(1.5f);
+
+        if (sr != null) sr.color = phase2Color;
+        isTransitioning = false;
+
+        yield return StartCoroutine(SkillRoutine());
+    }
+
+    IEnumerator SkillRoutine()
+    {
+        isAttacking = true;
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
         if (anim != null)
         {
-            anim.SetBool("IsDead", true);
+            anim.ResetTrigger("SkillTrigger");
+            anim.SetTrigger("SkillTrigger");
         }
 
-        if (phase2SpawnDelay > 0f)
-        {
-            yield return new WaitForSeconds(phase2SpawnDelay);
-        }
+        yield return new WaitForSeconds(skillWindup);
 
-        Vector3 spawnPos = transform.position + phase2SpawnOffset;
-
-        if (phase2BossPrefab != null)
+        if (!isDead)
         {
-            GameObject p2 = Instantiate(phase2BossPrefab, spawnPos, Quaternion.identity);
-            if (player != null)
+            if (skillEffectPrefab != null)
+                Instantiate(skillEffectPrefab, transform.position, Quaternion.identity);
+
+            Collider2D hit = Physics2D.OverlapCircle(transform.position, skillRadius, playerLayer);
+            if (hit != null)
             {
-                p2.SendMessage("SetPlayerTarget", player, SendMessageOptions.DontRequireReceiver);
+                SamuraiController p = hit.GetComponentInParent<SamuraiController>();
+                if (p != null) p.TakeDamage(skillDamage);
             }
         }
-        else if (existingPhase2BossObject != null)
-        {
-            existingPhase2BossObject.transform.position = spawnPos;
-            existingPhase2BossObject.SetActive(true);
-            existingPhase2BossObject.SendMessage("SetPlayerTarget", player, SendMessageOptions.DontRequireReceiver);
-        }
-        else if (phase2ScriptToEnable != null)
-        {
-            if (col != null) col.enabled = true;
-            if (anim != null) anim.SetBool("IsDead", false);
-            phase2ScriptToEnable.enabled = true;
-            this.enabled = false;
-            yield break;
-        }
 
-        gameObject.SetActive(false);
+        yield return new WaitForSeconds(skillRecovery);
+
+        nextSkillTime = Time.time + skillInterval;
+        nextAttackTime = Time.time + 0.5f;
+        isAttacking = false;
+    }
+
+    void Die()
+    {
+        isDead = true;
+        StopAllCoroutines();
+        rb.linearVelocity = Vector2.zero;
+        if (anim != null) anim.SetBool("IsDead", true);
+        foreach (Collider2D c in GetComponents<Collider2D>()) c.enabled = false;
+        Destroy(gameObject, 3f);
+    }
+
+    void SetSpeedAnim(float v)
+    {
+        if (anim != null) anim.SetFloat("Speed", v);
     }
 
     void OnDrawGizmosSelected()
     {
-        Vector2 center = attackPoint != null ? (Vector2)attackPoint.position : (Vector2)transform.position;
+        if (attackPoint != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
+        }
 
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(center, normalAttackRadius);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, attackTriggerDistance);
 
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(center, specialDamageRadius);
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(transform.position, skillRadius);
     }
 }
