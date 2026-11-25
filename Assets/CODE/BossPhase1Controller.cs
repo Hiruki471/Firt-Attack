@@ -182,8 +182,9 @@ public class BossPhase1Controller : MonoBehaviour
 
         if (anim != null)
         {
-            anim.ResetTrigger("SkillTrigger");
-            anim.SetTrigger("SkillTrigger");
+            anim.SetInteger("AttackIndex", 1);
+            anim.ResetTrigger("AttackTrigger");
+            anim.SetTrigger("AttackTrigger");
         }
 
         yield return new WaitForSeconds(skillWindup);

@@ -1,0 +1,990 @@
+fileFormatVersion: 2
+guid: 8e400eca19e250448a110a7e449f946f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5802400742748829564
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_0
+  - first:
+      213: 7005271164080941461
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_1
+  - first:
+      213: -5660231511385888738
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_2
+  - first:
+      213: -6634373224625672775
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_3
+  - first:
+      213: 5762233956951048737
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_4
+  - first:
+      213: -6954822722884217265
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_5
+  - first:
+      213: -8084759693648351801
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_6
+  - first:
+      213: -6129251506352710119
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_7
+  - first:
+      213: 4326268645192029567
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_8
+  - first:
+      213: 7963410665675190677
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_9
+  - first:
+      213: -4721170730959646641
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_10
+  - first:
+      213: -8746865169375631062
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_11
+  - first:
+      213: 479469325907735944
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_12
+  - first:
+      213: 2443675629359077
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_13
+  - first:
+      213: -6809756398508435961
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_14
+  - first:
+      213: 2431606174824627555
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_15
+  - first:
+      213: -7987402250632601167
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_16
+  - first:
+      213: -1940326740148105455
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_17
+  - first:
+      213: -1793825543230897720
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_18
+  - first:
+      213: -7019714043524971009
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_19
+  - first:
+      213: 8457408423333546701
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_20
+  - first:
+      213: -2432589614405071286
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_21
+  - first:
+      213: -1507663282906799590
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_22
+  - first:
+      213: 7052722692553629199
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_23
+  - first:
+      213: 5528582454141150055
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_24
+  - first:
+      213: 2282970123542948099
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_25
+  - first:
+      213: -4646856496480406917
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_26
+  - first:
+      213: 7572132596689562476
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_27
+  - first:
+      213: -1232797498574299638
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_28
+  - first:
+      213: 4807560879718684525
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_29
+  - first:
+      213: -3568980872015341161
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_30
+  - first:
+      213: -5989600458138749544
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_31
+  - first:
+      213: -5382900677306566728
+    second: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 498
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4884ef3544bb97fa0800000000000000
+      internalID: -5802400742748829564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 498
+        width: 109
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599e45a1209b73160800000000000000
+      internalID: 7005271164080941461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 594
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e182f59fd61d271b0800000000000000
+      internalID: -5660231511385888738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 498
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bde2ded3b8fde3a0800000000000000
+      internalID: -6634373224625672775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 587
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122c2c4114197ff40800000000000000
+      internalID: 5762233956951048737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_5
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 591
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46dbaee4918b7f90800000000000000
+      internalID: -6954822722884217265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_6
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 498
+        width: 49
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cda1bdb4e92dcf80800000000000000
+      internalID: -8084759693648351801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 498
+        width: 109
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e91d8aa3680faa0800000000000000
+      internalID: -6129251506352710119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 343
+        width: 94
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75d497496ef90c30800000000000000
+      internalID: 4326268645192029567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 343
+        width: 98
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5917028fec7b38e60800000000000000
+      internalID: 7963410665675190677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_10
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 430
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40dd29eb380b7eb0800000000000000
+      internalID: -4721170730959646641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 345
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29e029a874ec9680800000000000000
+      internalID: -8746865169375631062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_12
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 343
+        width: 108
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8853d63cfca67a600800000000000000
+      internalID: 479469325907735944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_13
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 343
+        width: 98
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef85d1928ea80000800000000000000
+      internalID: 2443675629359077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 185
+        width: 98
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70616fb92a2ee71a0800000000000000
+      internalID: -6809756398508435961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_15
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 280
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d711cceecceb120800000000000000
+      internalID: 2431606174824627555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_16
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 277
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b163ecd8fb072190800000000000000
+      internalID: -7987402250632601167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 185
+        width: 108
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fc7413c139215e0800000000000000
+      internalID: -1940326740148105455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_18
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 272
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c143ba2c2d0b17e0800000000000000
+      internalID: -1793825543230897720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_19
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 185
+        width: 109
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff58fdaf447f49e90800000000000000
+      internalID: -7019714043524971009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_20
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 185
+        width: 134
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca4139d620ce5570800000000000000
+      internalID: 8457408423333546701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 185
+        width: 109
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ec41552a4bd3ed0800000000000000
+      internalID: -2432589614405071286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_22
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 29
+        width: 101
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12e07d6b34b31be0800000000000000
+      internalID: -1507663282906799590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_23
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 29
+        width: 100
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0edef40ced40e160800000000000000
+      internalID: 7052722692553629199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_24
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 144
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7636a8a437879bc40800000000000000
+      internalID: 5528582454141150055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_25
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 141
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3096b9e4b3dbeaf10800000000000000
+      internalID: 2282970123542948099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 29
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72b115f2ac038fb0800000000000000
+      internalID: -4646856496480406917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_27
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 124
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b66d15a7e951960800000000000000
+      internalID: 7572132596689562476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_28
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 121
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e1d79e43934eee0800000000000000
+      internalID: -1232797498574299638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_29
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 122
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6752b70623e7b240800000000000000
+      internalID: 4807560879718684525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_30
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 30
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7999c516ece687ec0800000000000000
+      internalID: -3568980872015341161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_31
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 29
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8957f1a1e1aa0eca0800000000000000
+      internalID: -5989600458138749544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueKnight_Sheet2_Atk1_Run_Atk2_Special_32
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 105
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7bee39a581c45b0800000000000000
+      internalID: -5382900677306566728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_0: -5802400742748829564
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_1: 7005271164080941461
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_10: -4721170730959646641
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_11: -8746865169375631062
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_12: 479469325907735944
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_13: 2443675629359077
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_14: -6809756398508435961
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_15: 2431606174824627555
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_16: -7987402250632601167
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_17: -1940326740148105455
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_18: -1793825543230897720
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_19: -7019714043524971009
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_2: -5660231511385888738
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_20: 8457408423333546701
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_21: -2432589614405071286
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_22: -1507663282906799590
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_23: 7052722692553629199
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_24: 5528582454141150055
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_25: 2282970123542948099
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_26: -4646856496480406917
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_27: 7572132596689562476
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_28: -1232797498574299638
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_29: 4807560879718684525
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_3: -6634373224625672775
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_30: -3568980872015341161
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_31: -5989600458138749544
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_32: -5382900677306566728
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_4: 5762233956951048737
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_5: -6954822722884217265
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_6: -8084759693648351801
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_7: -6129251506352710119
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_8: 4326268645192029567
+      BlueKnight_Sheet2_Atk1_Run_Atk2_Special_9: 7963410665675190677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
